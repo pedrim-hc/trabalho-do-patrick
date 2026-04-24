@@ -4,5 +4,5 @@ let n2 = document.getElementById("n2")
 
 function soma(){
     let conta = n1 + n2
-    resposta.innerHTML(soma)
+    resposta.innerHTML(conta)
 }
