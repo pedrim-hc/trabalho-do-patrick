@@ -4,8 +4,7 @@ let resposta = document.getElementById("resposta")
 
 function soma(){
 
-    let conta
-    conta = n1 + n2
+    let conta = n1 + n2
     resposta.innerHTML = conta
 }
 function sub(){
