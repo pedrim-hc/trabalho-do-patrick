@@ -1,6 +1,6 @@
 let resposta = document.getElementById("resposta")
 
-function trans(){
+function soma(){
     let n1 = Number(document.getElementById("n1").value)
     let conta = 0
 
