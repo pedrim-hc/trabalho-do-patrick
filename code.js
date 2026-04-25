@@ -1,23 +1,22 @@
 let resposta = document.getElementById("resposta")
-    let n1 = Number(document.getElementById("n1").value)
-    let n2 = Number(document.getElementById("n2").value)
+   
 function soma(){
-
-    conta == n1 + n2
+     let n1 = Number(document.getElementById("n1").value)
+    let n2 = Number(document.getElementById("n2").value)
     resposta.innerHTML = n1+n2
 }
 function sub(){
-    let conta = 0
-    conta = n1 - n2
-    resposta.innerHTML = conta
+    let n1 = Number(document.getElementById("n1").value)
+    let n2 = Number(document.getElementById("n2").value)
+    resposta.innerHTML = n1-n2
 }
 function multi(){
-    let conta = 0
-    conta = n1 * n2
-    resposta.innerHTML = conta
+    let n1 = Number(document.getElementById("n1").value)
+    let n2 = Number(document.getElementById("n2").value)
+    resposta.innerHTML = n1*n2
 }
 function div(){
-    let conta = 0
-    conta = n1 / n2
-    resposta.innerHTML = conta
+    let n1 = Number(document.getElementById("n1").value)
+    let n2 = Number(document.getElementById("n2").value)
+    resposta.innerHTML = n1/n2
 }
