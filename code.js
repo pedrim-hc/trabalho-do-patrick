@@ -20,5 +20,5 @@ function multi(){
 function div(){
     let conta = 0
     conta = n1 + n2
-    resposta.innerHTML(conta)
+    resposta.innerHTML("a conta é",conta)
 }
