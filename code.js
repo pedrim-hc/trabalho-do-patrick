@@ -9,6 +9,7 @@ function sub(){
     let n1 = Number(document.getElementById("n1").value)
     let n2 = Number(document.getElementById("n2").value)
     resposta.innerHTML = n1-n2
+    resposta.innerHTML = "a conta é ", n1+n2
 }
 function multi(){
     let n1 = Number(document.getElementById("n1").value)
